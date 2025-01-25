@@ -1,0 +1,56 @@
+/* index.css */
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #121212; /* Fondo oscuro */
+  color: #ffffff; /* Texto blanco */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ocupa toda la altura de la ventana */
+}
+
+h4 {
+  background-color: #303030; /* Fondo del banner */
+  padding: 20px;
+  border-radius: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.form-control {
+  border-radius: 5px; /* Esquinas redondeadas */
+}
+
+.btn {
+  transition: background-color 0.3s ease; /* Transición suave para el botón */
+}
+
+.btn-primary {
+  background-color: #007bff; /* Color del botón */
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; /* Color del botón al pasar el mouse */
+}
+
+.table {
+  width: 100%; /* Tabla ocupa todo el ancho */
+}
+
+.table th, .table td {
+  text-align: center; /* Centrar texto en las celdas */
+}
+
+.table-dark {
+  background-color: #343a40; /* Fondo oscuro para la tabla */
+}
+
+.table-primary {
+  background-color: #007bff; /* Color de encabezado de tabla */
+}
